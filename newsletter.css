@@ -1,0 +1,154 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0px;
+  background-color: #4175d6 ;
+
+}
+
+header {
+  background-color: #ffffff;
+  padding: 50px;
+  border-color: #000000;
+}
+
+#logoHeader {
+  height: 90px; 
+  width: 90px;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+}
+
+
+#headerText {
+
+  position: absolute;
+  top: 5px;
+  left: 150px;
+  color: #000000;
+}
+
+
+p {
+  color: #ffffff;
+}
+
+
+/*For the navigation bar*/
+.navbar ul{
+  padding: 0px;
+  list-style-type: none;
+  background-color:#ffffff;
+  margin: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 25px;
+  left: 1250px;
+
+}
+
+.navbar a{
+  color: #000000;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover{
+  background-color: #4f4d4d;
+}
+
+.navbar li{
+  float: left;
+}
+/*For the navigation bar*/
+
+#DonateButton {
+  background-color: #4f4d4d;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.NewsletterTitle {
+  background-image: url("Assets/CFANewsletter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#newsletterTitle {
+  text-align: center;
+  color: #800000;
+  font-weight: bold;
+}
+
+#name {
+  border-color: #000000;
+  padding: 5px;
+  border-width: 3px;
+}
+
+#email {
+  border-color: #000000;
+  padding: 5px;
+  border-width: 3px;
+}
+
+#age {
+  border-color: #000000;
+  padding: 5px;
+  border-width: 3px;
+}
+
+#number {
+  border-color: #000000;
+  padding: 5px;
+  border-width: 3px;
+}
+
+#SubscribeButton{
+  background-color: #ffffff;
+  padding: 5px;
+  border-color: #000000;
+  cursor: pointer;
+}
+
+#SubscribeButton:hover {
+  background-color: #800000;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffffff;
+}
+
+#logoFooter {
+  height: 90px; 
+  width: 90px;
+}
+
+#SupportText {
+  color: #000000;
+}
+
+#donateFooter {
+  background-color: #ffffff;
+  padding: 15px;
+  border-color: #000000;
+  cursor: pointer;
+}
+
+#donateFooter:hover {
+  background-color: #0338ff;
+  font-weight: bold;
+}  

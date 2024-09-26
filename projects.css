@@ -1,0 +1,258 @@
+/* Body and Background */
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("Assets/projectsBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 50px;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#logoHeader {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#headerText {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Navigation */
+.navbar {
+    max-width: 100%;
+    text-align: right;
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 15px;
+    /* Added margin for spacing */
+}
+
+.navbar a {
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #4f4d4d;
+}
+
+#DonateButton {
+    background-color: #4f4d4d;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Project Banner */
+
+.ProjectsHeader {
+    background-color: #29811c;
+    text-align: center;
+}
+
+.Project1, .Project2, .Project3, .Project4 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Project1 {
+    background-color: #ffffff;
+}
+
+#Project1Title {
+    text-align: center;
+}
+
+.Project2 {
+    background-color: #ffffff;
+}
+
+#Project2Title {
+    text-align: center;
+}
+
+.Project3 {
+    background-color: #ffffff;
+}
+
+#Project3Title {
+    text-align: center;
+}
+
+.Project4 {
+    background-color: #ffffff;
+}
+
+#Project4Title {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+#logoFooter {
+    height: 90px;
+    width: 90px;
+}
+
+#SupportText,
+#newsletterFooterText {
+    color: #000000;
+}
+
+#donateFooter,
+#newsletterFooter {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+#donateFooter:hover,
+#newsletterFooter:hover {
+    font-weight: bold;
+}
+
+#donateFooter:hover {
+    background-color: #0338ff;
+}
+
+#newsletterFooter:hover {
+    background-color: #780
+}
+
+@media (max-width: 960px) {
+
+    /* Header */
+    header {
+        text-align: center;
+        padding: 30px;
+    }
+
+    #logoHeader {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #headerText {
+        position: static;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+
+    /* Navigation */
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: static;
+    }
+
+    .navbar li {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #DonateButton {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Projects Section */
+    .ProjectsHeader {
+        padding: 15px;
+    }
+
+    #projectsText {
+        font-size: 18px;
+    }
+
+    .Project1,
+    .Project2,
+    .Project3,
+    .Project4 {
+        margin: 10px auto;
+        padding: 15px;
+        width: 90%;
+    }
+
+    #Project1Title,
+    #Project2Title,
+    #Project3Title,
+    #Project4Title {
+        font-size: 20px;
+    }
+
+    #Project1Text,
+    #Project2Text,
+    #Project3Text,
+    #Project4Text {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+    }
+
+    #logoFooter {
+        height: 70px;
+        width: 70px;
+    }
+
+    #donateFooter,
+    #newsletterFooter {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Footer Sections */
+    .AboutFooter,
+    .SocialsFooter {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+

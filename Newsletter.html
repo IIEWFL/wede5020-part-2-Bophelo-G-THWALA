@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/CFA.png" type="image/png">
+    <title>Code For All - Newsletter</title>
+    <link rel="stylesheet" href="newsletter.css">
+</head>
+<body>
+    <header>
+
+        <img id="logoHeader" src="Assets/CFA.png" alt="Company Logo">
+
+
+      <h1 id="headerText">Code For All Organisation</h1>
+
+      <nav class="navbar">
+
+          <ul>
+
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Products and Services.html">Products and Services</a></li>
+            <li><a href="News.html">News</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <li><a href="Products and Services.html"><button id="DonateButton">Donate</button></li></a>
+
+
+
+        </ul>
+
+      </nav>
+    </header> 
+
+    <div class="NewsletterTitle">
+
+      <h2 id="newsletterTitle">Subscribe to the newsletter</h2>
+    </div>
+
+    <form action="/submit-donation" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="email">Age: </label><br>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="email">Phone Number:</label><br>
+        <input type="numeric" id="number"  minlength="10" maxlength="10" name="phoneNumber" required><br><br>
+
+
+
+        <a href="Thanks for Subscribing.html"><button type="button" id="SubscribeButton">Subscribe</button></a>
+
+        <br>
+        <br>
+    </form>
+
+
+    <p>If you'd prefer to donate by check or phone, please contact us at:</p>
+    <p>Email: Code For All@gmail.com</p>
+    <p>Phone: +27-23-456-7890</p>
+
+    <footer>
+        <img id="logoFooter"   src="Assets/CFA.png" alt="Company Logo">
+        <h1>Code For All</h1>
+        <h4>Support Us</h4>
+        <p id="SupportText">Your support means the world to us. If you want to suport us, Click here: </p>
+        <a href="Products and Services.html" target="_blank" role="button"><button id="donateFooter">Donate</button></a>
+
+        <h4>Follow Us and Connect</h4>
+        <a href="https://x.com/codeforall"><img src="Assets/Twitter (X).jpg" height="50" width="50" ></a>
+
+        <a href="https://www.instagram.com/letscodeforall/"><img src="Assets/Instagram.jpg" height="50" width="50" ></a>
+
+        <a href="https://www.linkedin.com/company/code-for-all/"><img src="Assets/linkedIn.png" height="50" width="50" ></a>
+
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
